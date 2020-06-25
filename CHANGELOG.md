@@ -1,4 +1,6 @@
-# Latest: v7.3.3
+# Latest: v7.3.4
+
+_identical to v7.3.3_
 
 ## What's new:
   - Added support for strings in annotations (thanks to @mshima!)
