@@ -1,4 +1,14 @@
-# Latest: v7.3.2
+# Latest: v7.3.3
+
+## What's new:
+  - Added support for strings in annotations (thanks to @mshima!)
+
+## Bug fixes:
+  - Fixed error when enums had blob in their name
+
+---
+
+# v7.3.2
 
 ## What's new:
   -  Added the generator-jhipster- prefix to blueprints that don't have one
