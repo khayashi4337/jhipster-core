@@ -154,7 +154,7 @@ describe('JDLEntity', () => {
 
       it('should alter the entity', () => {
         expect(entity.toString()).to.equal(`entity Toto {
-  tata String,
+  tata String
   titi Integer
 }`);
       });
@@ -309,7 +309,7 @@ entity ${entity.name} (${entity.tableName}) {
   /**
    * ${field1.comment}
    */
-  ${field1.name} ${field1.type} ${field1.validations[0]},
+  ${field1.name} ${field1.type} ${field1.validations[0]}
   ${field2.name} ${field2.type}
 }`
         );
