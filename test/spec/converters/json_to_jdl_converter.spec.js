@@ -164,15 +164,15 @@ entity Task {
   description String
 }
 relationship OneToOne {
-  Country{region required} to Region,
-  Department{location required} to Location,
-  JobHistory{department required} to Department,
-  JobHistory{job required} to Job,
-  JobHistory{employee required} to Employee,
+  Country{region required} to Region
+  Department{location required} to Location
+  JobHistory{department required} to Department
+  JobHistory{job required} to Job
+  JobHistory{employee required} to Employee
   Location{country required} to Country
 }
 relationship OneToMany {
-  Department{employee} to Employee{department},
+  Department{employee} to Employee{department}
   Employee{job} to Job{employee}
 }
 relationship ManyToOne {
