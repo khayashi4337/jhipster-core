@@ -1,3 +1,10 @@
+# Warning
+
+This repository is being discontinued. Its source code is being merged in the generator's repo (https://github.com/jhipster/generator-jhipster/pull/11694).
+New PRs in this repo won't be merged.
+
+---
+
 [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 [![GitHub Actions Build Status][github-actions-image]][github-actions-url] [![Azure DevOps Build Status][azure-devops-image]][azure-devops-url]
